@@ -1,0 +1,71 @@
+{
+  "INSPIRATION_0001": {
+    "id": "INSPIRATION_0001",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "INSPIRATION_0001",
+        "type": "INSPIRATION",
+        "cost": 0,
+        "image": "https://cdn.alteredcore.org/cards/en/EOLE/ALT_EOLE_B_OR_119_R2.webp",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "",
+        "type": "",
+        "cost": 0,
+        "image": "",
+        "isHorizontal": false
+      }
+    },
+    "name": "INSPIRATION_0001",
+    "type": "INSPIRATION",
+    "cost": 0
+  },
+  "LIEU_0001": {
+    "id": "LIEU_0001",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "LIEU_0001",
+        "type": "LIEU",
+        "cost": 0,
+        "image": "https://cdn.alteredcore.org/cards/en/EOLE/ALT_EOLE_B_OR_118_R2.webp",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "",
+        "type": "",
+        "cost": 0,
+        "image": "",
+        "isHorizontal": false
+      }
+    },
+    "name": "LIEU_0001",
+    "type": "LIEU",
+    "cost": 0
+  },
+  "PERSONNAGE_0001": {
+    "id": "PERSONNAGE_0001",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "PERSONNAGE_0001",
+        "type": "PERSONNAGE",
+        "cost": 0,
+        "image": "https://cdn.alteredcore.org/cards/en/EOLE/ALT_EOLE_B_YZ_111_R2.webp",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "",
+        "type": "",
+        "cost": 0,
+        "image": "",
+        "isHorizontal": false
+      }
+    },
+    "name": "PERSONNAGE_0001",
+    "type": "PERSONNAGE",
+    "cost": 0
+  }
+}
