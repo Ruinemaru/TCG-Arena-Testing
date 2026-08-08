@@ -25,29 +25,7 @@
     ]
   },
   "gameplay": {
-    "Classic": {
-
-      
-      "beforeGameStart": {
-        "initialBoardSetup": {
-          "0": [
-                {
-                  "drawFromTop": "Lieu",
-                  "count": 1,
-                  "destination": "Lieu_Deck"
-                }
-              ],
-              "1": [
-                {
-                  "drawFromTop": "Personnage",
-                  "count": 1,
-                  "destination": "Personnage_Deck"
-                }
-              ]
-            }
-      }
-
-      
+    "Classic": {      
       "mulligan": {
         "info": "",
         "startingHandSize": 3,
