@@ -42,7 +42,7 @@
       }
     },
     "name": "LIEU_0001",
-    "type": "LIEU",
+    "type": "Lieu",
     "cost": 0
   },
   "PERSONNAGE_0001": {
@@ -65,7 +65,7 @@
       }
     },
     "name": "PERSONNAGE_0001",
-    "type": "PERSONNAGE",
+    "type": "Personnage",
     "cost": 0
   }
 }
