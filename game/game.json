@@ -26,8 +26,7 @@
         "gameplay": "Classic",
         "customCategories": [
           "Lieu",
-          "Personnage",
-          "Creation"
+          "Personnage"
         ]
       }
     ]
@@ -66,59 +65,32 @@
         "customSections": [
           "Lieu_Deck",
           "Personnage_Deck",
-          "Creation_Deck",
-          "Fondation_1",
-          "Partition_1"
+          "Test_Section"
         ],
 
         "layout": {
-          "direction": "column",
+          "direction": "row",
           "isSymetricalForOpponents": true,
 
           "content": [
-
             {
-              "direction": "row",
-
-              "content": [
-                {
-                  "section": "Lieu_Deck"
-                },
-                {
-                  "section": "Personnage_Deck"
-                },
-                {
-                  "section": "Creation_Deck"
-                }
-              ]
+              "section": "Lieu_Deck",
+              "style": false
             },
-
             {
-              "direction": "row",
-
-              "content": [
-                {
-                  "section": "Partition_1"
-                }
-              ]
+              "section": "Personnage_Deck",
+              "style": false
             },
-
             {
-              "direction": "row",
-
-              "content": [
-                {
-                  "section": "Fondation_1"
-                }
-              ]
+              "section": "Test_Section",
+              "style": false
             }
           ]
         },
 
         "categoriesAlreadyOnBoard": [
           "Lieu->Lieu_Deck",
-          "Personnage->Personnage_Deck",
-          "Creation->Creation_Deck"
+          "Personnage->Personnage_Deck"
         ],
 
         "autoPlayFromHand": {},
@@ -161,53 +133,21 @@
             "noQuickActions": true
           },
 
-          "Creation_Deck": {
-            "title": "Creation_Deck",
-            "isHidden": "yes",
+          "Test_Section": {
+            "title": "Test_Section",
+            "isHidden": "no",
             "height": "SMALL",
-            "alignment": "DECK",
+            "alignment": "START",
             "opponentAlignment": false,
             "noAutoPayTo": "true",
             "isHorizontalAllowed": false,
-            "displayedTitle": "Creation Deck",
+            "displayedTitle": "Test",
             "enterTapped": false,
             "enterSpun": false,
             "isGroupForbidden": false,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false,
-            "noQuickActions": true
-          },
-
-          "Partition_1": {
-            "title": "Partition_1",
-            "isHidden": "no",
-            "height": "MEDIUM",
-            "alignment": "NONE",
-            "opponentAlignment": false,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": true,
-            "displayedTitle": "Partition",
-            "noQuickActions": true,
-            "enterTapped": false,
-            "isGroupForbidden": false,
-            "keepTappedNewTurn": true,
-            "showHiddenCardInHistory": false
-          },
-
-          "Fondation_1": {
-            "title": "Fondation_1",
-            "isHidden": "no",
-            "height": "MEDIUM",
-            "alignment": "NONE",
-            "opponentAlignment": false,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": true,
-            "displayedTitle": "Fondation",
-            "noQuickActions": true,
-            "enterTapped": false,
-            "isGroupForbidden": false,
-            "keepTappedNewTurn": true,
-            "showHiddenCardInHistory": false
+            "noQuickActions": false
           }
 
         }
