@@ -165,40 +165,37 @@
             "noQuickActions": true
           },
 
-          "Partition": {
-            "title": "Partition",
-            "isHidden": "no",
-            "height": "LARGE",
-            "alignment": "START",
-            "opponentAlignment": false,
-            "noAutoPayTo": "true",
-            "isHorizontalAllowed": false,
-            "displayedTitle": "Partition",
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": false,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false,
-            "noQuickActions": false
-          },
+"Partition": {
+  "title": "Partition",
+  "isHidden": "no",
+  "height": "LARGE",
+  "alignment": "START",
+  "opponentAlignment": false,
+  "isHorizontalAllowed": false,
+  "displayedTitle": "Partition",
+  "enterTapped": false,
+  "enterSpun": false,
+  "isGroupForbidden": false,
+  "keepTappedNewTurn": false,
+  "showHiddenCardInHistory": false,
+  "noQuickActions": false
+},
 
-          "Fondation": {
-            "title": "Fondation",
-            "isHidden": "no",
-            "height": "LARGE",
-            "alignment": "START",
-            "opponentAlignment": false,
-            "noAutoPayTo": "true",
-            "isHorizontalAllowed": false,
-            "displayedTitle": "Fondation",
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": false,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false,
-            "noQuickActions": false
-          }
-
+"Fondation": {
+  "title": "Fondation",
+  "isHidden": "no",
+  "height": "LARGE",
+  "alignment": "START",
+  "opponentAlignment": false,
+  "isHorizontalAllowed": false,
+  "displayedTitle": "Fondation",
+  "enterTapped": false,
+  "enterSpun": false,
+  "isGroupForbidden": false,
+  "keepTappedNewTurn": false,
+  "showHiddenCardInHistory": false,
+  "noQuickActions": false
+}
         }
       }
     }
