@@ -97,23 +97,7 @@
         "layout": {
           "direction": "column",
           "isSymetricalForOpponents": true,
-
           "content": [
-
-            {
-              "direction": "row",
-              "content": [
-                {
-                  "section": "Lieu_Deck",
-                  "style": false
-                },
-                {
-                  "section": "Personnage_Deck",
-                  "style": false
-                }
-              ]
-            },
-
             {
               "direction": "row",
               "content": [
@@ -125,212 +109,188 @@
                   }
                 },
                 {
-                  "section": "Decouverte_Lieu_2",
-                  "style": {
-                    "width": "10vh",
-                    "height": "14vh"
-                  }
-                },
-                {
-                  "section": "Decouverte_Lieu_3",
-                  "style": {
-                    "width": "10vh",
-                    "height": "14vh"
-                  }
-                }
-              ]
-            },
-
-            {
-              "direction": "row",
-              "content": [
-                {
-                  "section": "Decouverte_Personnage_1",
-                  "style": {
-                    "width": "10vh",
-                    "height": "14vh"
-                  }
-                },
-                {
-                  "section": "Decouverte_Personnage_2",
-                  "style": {
-                    "width": "10vh",
-                    "height": "14vh"
-                  }
-                },
-                {
-                  "section": "Decouverte_Personnage_3",
-                  "style": {
-                    "width": "10vh",
-                    "height": "14vh"
-                  }
-                }
-              ]
-            },
-
-            {
-              "direction": "row",
-              "content": [
-                {
-                  "section": "Fondation_1",
-                  "style": {
-                    "width": "10vh",
-                    "height": "14vh"
-                  }
-                },
-                {
-                  "section": "Fondation_2",
-                  "style": {
-                    "width": "10vh",
-                    "height": "14vh"
-                  }
-                },
-                {
-                  "section": "Fondation_3",
-                  "style": {
-                    "width": "10vh",
-                    "height": "14vh"
-                  }
-                }
-              ]
-            },
-
-            {
-              "direction": "row",
-              "content": [
-                {
-                  "section": "Fondation_4",
-                  "style": {
-                    "width": "10vh",
-                    "height": "14vh"
-                  }
-                },
-                {
-                  "section": "Fondation_5",
-                  "style": {
-                    "width": "10vh",
-                    "height": "14vh"
-                  }
-                },
-                {
-                  "section": "Fondation_6",
-                  "style": {
-                    "width": "10vh",
-                    "height": "14vh"
-                  }
-                }
-              ]
-            },
-
-            {
-              "direction": "row",
-              "content": [
-                {
-                  "section": "Fondation_7",
-                  "style": {
-                    "width": "10vh",
-                    "height": "14vh"
-                  }
-                },
-                {
-                  "section": "Fondation_8",
-                  "style": {
-                    "width": "10vh",
-                    "height": "14vh"
-                  }
-                },
-                {
-                  "section": "Fondation_9",
-                  "style": {
-                    "width": "10vh",
-                    "height": "14vh"
-                  }
-                }
-              ]
-            },
-
-            {
-              "direction": "row",
-              "content": [
-                {
-                  "section": "Partition_1",
-                  "style": {
-                    "width": "10vh",
-                    "height": "14vh"
-                  }
-                },
-                {
-                  "section": "Partition_2",
-                  "style": {
-                    "width": "10vh",
-                    "height": "14vh"
-                  }
-                },
-                {
-                  "section": "Partition_3",
-                  "style": {
-                    "width": "10vh",
-                    "height": "14vh"
-                  }
-                }
-              ]
-            },
-
-            {
-              "direction": "row",
-              "content": [
-                {
-                  "section": "Partition_4",
-                  "style": {
-                    "width": "10vh",
-                    "height": "14vh"
-                  }
-                },
-                {
-                  "section": "Partition_5",
-                  "style": {
-                    "width": "10vh",
-                    "height": "14vh"
-                  }
-                },
-                {
-                  "section": "Partition_6",
-                  "style": {
-                    "width": "10vh",
-                    "height": "14vh"
-                  }
-                }
-              ]
-            },
-
-            {
-              "direction": "row",
-              "content": [
-                {
-                  "section": "Partition_7",
-                  "style": {
-                    "width": "10vh",
-                    "height": "14vh"
-                  }
-                },
-                {
-                  "section": "Partition_8",
-                  "style": {
-                    "width": "10vh",
-                    "height": "14vh"
-                  }
-                },
-                {
-                  "section": "Partition_9",
-                  "style": {
-                    "width": "10vh",
-                    "height": "14vh"
-                  }
-                }
-              ]
-            }
-          ]
+          "section": "Decouverte_Lieu_2",
+          "style": {
+            "width": "10vh",
+            "height": "14vh"
+          }
         },
+        {
+          "section": "Decouverte_Lieu_3",
+          "style": {
+            "width": "10vh",
+            "height": "14vh"
+          }
+        }
+      ]
+    },
+
+    {
+      "direction": "row",
+      "content": [
+        {
+          "section": "Decouverte_Personnage_1",
+          "style": {
+            "width": "10vh",
+            "height": "14vh"
+          }
+        },
+        {
+          "section": "Decouverte_Personnage_2",
+          "style": {
+            "width": "10vh",
+            "height": "14vh"
+          }
+        },
+        {
+          "section": "Decouverte_Personnage_3",
+          "style": {
+            "width": "10vh",
+            "height": "14vh"
+          }
+        }
+      ]
+    },
+
+    {
+      "direction": "row",
+      "content": [
+        {
+          "section": "Fondation_1",
+          "style": {
+            "width": "10vh",
+            "height": "14vh"
+          }
+        },
+        {
+          "section": "Fondation_2",
+          "style": {
+            "width": "10vh",
+            "height": "14vh"
+          }
+        },
+        {
+          "section": "Fondation_3",
+          "style": {
+            "width": "10vh",
+            "height": "14vh"
+          }
+        },
+        {
+          "section": "Fondation_4",
+          "style": {
+            "width": "10vh",
+            "height": "14vh"
+          }
+        },
+        {
+          "section": "Fondation_5",
+          "style": {
+            "width": "10vh",
+            "height": "14vh"
+          }
+        },
+        {
+          "section": "Fondation_6",
+          "style": {
+            "width": "10vh",
+            "height": "14vh"
+          }
+        },
+        {
+          "section": "Fondation_7",
+          "style": {
+            "width": "10vh",
+            "height": "14vh"
+          }
+        },
+        {
+          "section": "Fondation_8",
+          "style": {
+            "width": "10vh",
+            "height": "14vh"
+          }
+        },
+        {
+          "section": "Fondation_9",
+          "style": {
+            "width": "10vh",
+            "height": "14vh"
+          }
+        }
+      ]
+    },
+
+    {
+      "direction": "row",
+      "content": [
+        {
+          "section": "Partition_1",
+          "style": {
+            "width": "10vh",
+            "height": "14vh"
+          }
+        },
+        {
+          "section": "Partition_2",
+          "style": {
+            "width": "10vh",
+            "height": "14vh"
+          }
+        },
+        {
+          "section": "Partition_3",
+          "style": {
+            "width": "10vh",
+            "height": "14vh"
+          }
+        },
+        {
+          "section": "Partition_4",
+          "style": {
+            "width": "10vh",
+            "height": "14vh"
+          }
+        },
+        {
+          "section": "Partition_5",
+          "style": {
+            "width": "10vh",
+            "height": "14vh"
+          }
+        },
+        {
+          "section": "Partition_6",
+          "style": {
+            "width": "10vh",
+            "height": "14vh"
+          }
+        },
+        {
+          "section": "Partition_7",
+          "style": {
+            "width": "10vh",
+            "height": "14vh"
+          }
+        },
+        {
+          "section": "Partition_8",
+          "style": {
+            "width": "10vh",
+            "height": "14vh"
+          }
+        },
+        {
+          "section": "Partition_9",
+          "style": {
+            "width": "10vh",
+            "height": "14vh"
+          }
+        }
+      ]
+    }
+  ]
+},
 
         "categoriesAlreadyOnBoard": [
           "Lieu->Lieu_Deck",
