@@ -30,7 +30,7 @@
         "initialBoardSetup": {
           "0": [
             {
-              "drawFromTop": "Deck",
+              "drawFromTop": "Lieu",
               "count": 1,
               "destination": "Lieu_Deck"
             }
