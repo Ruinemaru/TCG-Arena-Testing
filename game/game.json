@@ -1,5 +1,5 @@
 {
-  "name": "Test",
+  "name": "Partition Test",
 
   "menuBackgroundImage": "",
 
@@ -19,13 +19,16 @@
 
   "deckBuilding": {
     "mainFilters": [],
+
     "formats": [
       {
         "title": "Classic",
         "gameplay": "Classic",
+
         "customCategories": [
-          "Inspiration",
-          "Lieu"
+          "Lieu",
+          "Personnage",
+          "Creation"
         ]
       }
     ]
@@ -33,6 +36,14 @@
 
   "gameplay": {
     "Classic": {
+
+      "mulligan": {
+        "info": "",
+        "startingHandSize": 3,
+        "drawNewHand": true,
+        "putSelectionAtBottom": false,
+        "drawNewSelectedCards": false
+      },
 
       "newTurn": {
         "drawOnStart": false,
@@ -54,21 +65,32 @@
       "sections": {
 
         "customSections": [
-          "Lieu_Deck"
+          "Lieu_Deck",
+          "Personnage_Deck",
+          "Creation_Deck"
         ],
 
         "layout": {
           "direction": "row",
           "isSymetricalForOpponents": true,
+
           "content": [
             {
               "section": "Lieu_Deck"
+            },
+            {
+              "section": "Personnage_Deck"
+            },
+            {
+              "section": "Creation_Deck"
             }
           ]
         },
 
         "categoriesAlreadyOnBoard": [
-          "Lieu->Lieu_Deck"
+          "Lieu->Lieu_Deck",
+          "Personnage->Personnage_Deck",
+          "Creation->Creation_Deck"
         ],
 
         "autoPlayFromHand": {},
@@ -86,6 +108,40 @@
             "noAutoPayTo": "true",
             "isHorizontalAllowed": false,
             "displayedTitle": "Lieu Deck",
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false,
+            "noQuickActions": true
+          },
+
+          "Personnage_Deck": {
+            "title": "Personnage_Deck",
+            "isHidden": "yes",
+            "height": "SMALL",
+            "alignment": "DECK",
+            "opponentAlignment": false,
+            "noAutoPayTo": "true",
+            "isHorizontalAllowed": false,
+            "displayedTitle": "Personnage Deck",
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false,
+            "noQuickActions": true
+          },
+
+          "Creation_Deck": {
+            "title": "Creation_Deck",
+            "isHidden": "yes",
+            "height": "SMALL",
+            "alignment": "DECK",
+            "opponentAlignment": false,
+            "noAutoPayTo": "true",
+            "isHorizontalAllowed": false,
+            "displayedTitle": "Creation Deck",
             "enterTapped": false,
             "enterSpun": false,
             "isGroupForbidden": false,
