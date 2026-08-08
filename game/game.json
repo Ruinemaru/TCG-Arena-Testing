@@ -24,8 +24,8 @@
         "title": "Classic",
         "gameplay": "Classic",
         "customCategories": [
-          "Lieu",
-          "Personnage"
+          "Inspiration",
+          "Lieu"
         ]
       }
     ]
@@ -54,8 +54,7 @@
       "sections": {
 
         "customSections": [
-          "Lieu_Deck",
-          "Personnage_Deck"
+          "Lieu_Deck"
         ],
 
         "layout": {
@@ -64,16 +63,12 @@
           "content": [
             {
               "section": "Lieu_Deck"
-            },
-            {
-              "section": "Personnage_Deck"
             }
           ]
         },
 
         "categoriesAlreadyOnBoard": [
-          "Lieu->Lieu_Deck",
-          "Personnage->Personnage_Deck"
+          "Lieu->Lieu_Deck"
         ],
 
         "autoPlayFromHand": {},
@@ -93,25 +88,6 @@
             "displayedTitle": "Lieu Deck",
             "enterTapped": false,
             "enterSpun": false,
-            "isGroupForbidden": false,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false,
-            "noQuickActions": true
-          },
-
-          "Personnage_Deck": {
-            "title": "Personnage_Deck",
-            "isHidden": "yes",
-            "height": "SMALL",
-            "alignment": "DECK",
-            "opponentAlignment": false,
-            "noAutoPayTo": "true",
-            "isHorizontalAllowed": false,
-            "displayedTitle": "Personnage Deck",
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": false,
-            "keepTappedNewTurn": false,
             "isGroupForbidden": false,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false,
