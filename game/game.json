@@ -212,7 +212,7 @@
             "displayedTitle": "F1",
             "enterTapped": false,
             "enterSpun": false,
-            "isGroupForbidden": false,
+            "isGroupForbidden": true,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false,
             "noQuickActions": false
@@ -229,7 +229,7 @@
             "displayedTitle": "F2",
             "enterTapped": false,
             "enterSpun": false,
-            "isGroupForbidden": false,
+            "isGroupForbidden": true,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false,
             "noQuickActions": false
@@ -246,7 +246,7 @@
             "displayedTitle": "F3",
             "enterTapped": false,
             "enterSpun": false,
-            "isGroupForbidden": false,
+            "isGroupForbidden": true,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false,
             "noQuickActions": false
@@ -263,7 +263,7 @@
             "displayedTitle": "F4",
             "enterTapped": false,
             "enterSpun": false,
-            "isGroupForbidden": false,
+            "isGroupForbidden": true,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false,
             "noQuickActions": false
@@ -280,7 +280,7 @@
             "displayedTitle": "F5",
             "enterTapped": false,
             "enterSpun": false,
-            "isGroupForbidden": false,
+            "isGroupForbidden": true,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false,
             "noQuickActions": false
@@ -297,7 +297,7 @@
             "displayedTitle": "F6",
             "enterTapped": false,
             "enterSpun": false,
-            "isGroupForbidden": false,
+            "isGroupForbidden": true,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false,
             "noQuickActions": false
@@ -314,7 +314,7 @@
             "displayedTitle": "F7",
             "enterTapped": false,
             "enterSpun": false,
-            "isGroupForbidden": false,
+            "isGroupForbidden": true,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false,
             "noQuickActions": false
@@ -331,7 +331,7 @@
             "displayedTitle": "F8",
             "enterTapped": false,
             "enterSpun": false,
-            "isGroupForbidden": false,
+            "isGroupForbidden": true,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false,
             "noQuickActions": false
@@ -348,7 +348,7 @@
             "displayedTitle": "F9",
             "enterTapped": false,
             "enterSpun": false,
-            "isGroupForbidden": false,
+            "isGroupForbidden": true,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false,
             "noQuickActions": false
