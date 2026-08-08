@@ -1,16 +1,22 @@
 {
   "name": "Test",
+
   "menuBackgroundImage": "",
+
   "defaultRessources": {
     "backgrounds": [],
     "decksUrl": "https://raw.githubusercontent.com/Ruinemaru/TCG-Arena-Testing/refs/heads/main/decks/decklist.json"
   },
+
   "customHelp": "",
+
   "cardRotation": 45,
+
   "cards": {
     "dataUrl": "https://raw.githubusercontent.com/Ruinemaru/TCG-Arena-Testing/refs/heads/main/cards/cardlist.json",
     "cardBack": ""
   },
+
   "deckBuilding": {
     "mainFilters": [],
     "formats": [
@@ -24,19 +30,10 @@
       }
     ]
   },
+
   "gameplay": {
     "Classic": {
-      "beforeGameStart": {
-        "initialBoardSetup": {
-          "0": [
-            {
-              "drawFromTop": "Lieu",
-              "count": 1,
-              "destination": "Lieu_Deck"
-            }
-          ]
-        }
-      },
+
       "mulligan": {
         "info": "",
         "startingHandSize": 3,
@@ -44,23 +41,31 @@
         "putSelectionAtBottom": false,
         "drawNewSelectedCards": false
       },
+
       "newTurn": {
         "drawOnStart": false,
         "sharedTurn": false,
         "firstPlayerTokenName": "",
         "drawPerTurn": 1
       },
+
       "defaultNotes": "",
+
       "tokens": [],
+
       "countersStartingValues": [
         0
       ],
+
       "hideFacedDownCards": false,
+
       "sections": {
+
         "customSections": [
           "Lieu_Deck",
           "Personnage_Deck"
         ],
+
         "layout": {
           "direction": "row",
           "isSymetricalForOpponents": true,
@@ -73,13 +78,18 @@
             }
           ]
         },
+
         "categoriesAlreadyOnBoard": [
           "Lieu->Lieu_Deck",
           "Personnage->Personnage_Deck"
         ],
+
         "autoPlayFromHand": {},
+
         "autoPlayFromStack": {},
+
         "sectionsDict": {
+
           "Lieu_Deck": {
             "title": "Lieu_Deck",
             "isHidden": "yes",
@@ -96,6 +106,7 @@
             "showHiddenCardInHistory": false,
             "noQuickActions": true
           },
+
           "Personnage_Deck": {
             "title": "Personnage_Deck",
             "isHidden": "yes",
@@ -112,6 +123,7 @@
             "showHiddenCardInHistory": false,
             "noQuickActions": true
           }
+
         }
       }
     }
