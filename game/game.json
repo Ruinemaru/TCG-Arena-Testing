@@ -105,7 +105,9 @@
                   "section": "Decouverte_Lieu_1",
                   "style": {
                     "width": "10vh",
-                    "height": "14vh"
+                    "height": "14vh",
+                    "margin": "0",
+                    "padding": "0"
                   }
                 },
                 {
