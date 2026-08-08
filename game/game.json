@@ -103,7 +103,10 @@
               "content": [
                 {
                   "section": "Fondation_1",
-                  "style": false
+                  "style": {
+                    "width": "10vh",
+                    "height": "14vh"
+                  }
                 },
                 {
                   "section": "Fondation_2",
