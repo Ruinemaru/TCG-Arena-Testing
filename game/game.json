@@ -25,18 +25,18 @@
     ]
   },
   "gameplay": {
-    "beforeGameStart": {
-      "initialBoardSetup": {
-        "0": [
-          {
-            "drawFromTop": "Deck",
-            "count": 1,
-            "destination": "Lieu_Deck"
-          }
-        ]
-      }
-    },
-    "Classic": {      
+    "Classic": {
+      "beforeGameStart": {
+        "initialBoardSetup": {
+          "0": [
+            {
+              "drawFromTop": "Deck",
+              "count": 1,
+              "destination": "Lieu_Deck"
+            }
+          ]
+        }
+      },
       "mulligan": {
         "info": "",
         "startingHandSize": 3,
