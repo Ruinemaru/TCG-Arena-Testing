@@ -1,0 +1,39 @@
+[
+    {
+        "title": "Test - Starter Deck",
+        "id": "TESTDECK",
+        "game": "Test",
+        "format": [
+            "Classic"
+        ],
+        "cardCount": 3,
+        "createdAt": "2025-10-07T16:14:34.927Z",
+        "lastModifiedAt": "2025-10-07T16:14:53.950Z",
+        "deckList": {
+            "categoriesOrder": [
+                "Inspiration",
+                "Lieu",
+                "Personnage"
+            ],
+            "Sideboard": [],
+            "Inspiration": [
+                {
+                    "count": 1,
+                    "id": "INSPIRATION_0001"
+                }
+            ], 
+            "Personnage": [
+                {
+                    "count": 1,
+                    "id": "PERSONNAGE_0001"
+                }
+            ],
+            "Lieu": [
+                {
+                    "count": 1,
+                    "id": "LIEU_0001"
+                }
+            ],
+        }
+    }
+]
