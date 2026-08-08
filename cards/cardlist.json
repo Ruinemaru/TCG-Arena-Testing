@@ -5,7 +5,7 @@
     "face": {
       "front": {
         "name": "INSPIRATION_0001",
-        "type": "INSPIRATION",
+        "type": "Inspiration",
         "cost": 0,
         "image": "https://cdn.alteredcore.org/cards/en/EOLE/ALT_EOLE_B_OR_119_R2.webp",
         "isHorizontal": false
@@ -19,7 +19,7 @@
       }
     },
     "name": "INSPIRATION_0001",
-    "type": "INSPIRATION",
+    "type": "Inspiration",
     "cost": 0
   },
 
@@ -29,7 +29,7 @@
     "face": {
       "front": {
         "name": "LIEU_0001",
-        "type": "LIEU",
+        "type": "Lieu",
         "cost": 0,
         "image": "https://cdn.alteredcore.org/cards/en/EOLE/ALT_EOLE_B_OR_118_R2.webp",
         "isHorizontal": false
@@ -43,7 +43,7 @@
       }
     },
     "name": "LIEU_0001",
-    "type": "LIEU",
+    "type": "Lieu",
     "cost": 0
   },
 
@@ -53,7 +53,7 @@
     "face": {
       "front": {
         "name": "PERSONNAGE_0001",
-        "type": "PERSONNAGE",
+        "type": "Personnage",
         "cost": 0,
         "image": "https://cdn.alteredcore.org/cards/en/EOLE/ALT_EOLE_B_YZ_111_R2.webp",
         "isHorizontal": false
@@ -67,7 +67,7 @@
       }
     },
     "name": "PERSONNAGE_0001",
-    "type": "PERSONNAGE",
+    "type": "Personnage",
     "cost": 0
   },
 
@@ -77,7 +77,7 @@
     "face": {
       "front": {
         "name": "CREATION_0001",
-        "type": "CREATION",
+        "type": "Creation",
         "cost": 0,
         "image": "https://cdn.alteredcore.org/cards/en/EOLE/ALT_EOLE_B_YZ_109_R2.webp",
         "isHorizontal": false
@@ -91,7 +91,7 @@
       }
     },
     "name": "CREATION_0001",
-    "type": "CREATION",
+    "type": "Creation",
     "cost": 0
   }
 }
