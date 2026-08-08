@@ -24,7 +24,6 @@
       {
         "title": "Classic",
         "gameplay": "Classic",
-
         "customCategories": [
           "Lieu",
           "Personnage",
@@ -67,22 +66,38 @@
         "customSections": [
           "Lieu_Deck",
           "Personnage_Deck",
-          "Creation_Deck"
+          "Creation_Deck",
+          "Fondation",
+          "Partition"
         ],
 
         "layout": {
-          "direction": "row",
+          "direction": "column",
           "isSymetricalForOpponents": true,
 
           "content": [
             {
-              "section": "Lieu_Deck"
+              "direction": "row",
+
+              "content": [
+                {
+                  "section": "Lieu_Deck"
+                },
+                {
+                  "section": "Personnage_Deck"
+                },
+                {
+                  "section": "Creation_Deck"
+                }
+              ]
             },
+
             {
-              "section": "Personnage_Deck"
+              "section": "Partition"
             },
+
             {
-              "section": "Creation_Deck"
+              "section": "Fondation"
             }
           ]
         },
@@ -148,6 +163,40 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false,
             "noQuickActions": true
+          },
+
+          "Partition": {
+            "title": "Partition",
+            "isHidden": "no",
+            "height": "LARGE",
+            "alignment": "START",
+            "opponentAlignment": false,
+            "noAutoPayTo": "true",
+            "isHorizontalAllowed": false,
+            "displayedTitle": "Partition",
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false,
+            "noQuickActions": false
+          },
+
+          "Fondation": {
+            "title": "Fondation",
+            "isHidden": "no",
+            "height": "LARGE",
+            "alignment": "START",
+            "opponentAlignment": false,
+            "noAutoPayTo": "true",
+            "isHorizontalAllowed": false,
+            "displayedTitle": "Fondation",
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false,
+            "noQuickActions": false
           }
 
         }
