@@ -25,6 +25,17 @@
     ]
   },
   "gameplay": {
+    "beforeGameStart": {
+      "initialBoardSetup": {
+        "0": [
+          {
+            "drawFromTop": "Deck",
+            "count": 1,
+            "destination": "Lieu_Deck"
+          }
+        ]
+      }
+    },
     "Classic": {      
       "mulligan": {
         "info": "",
