@@ -3,12 +3,12 @@
   "menuBackgroundImage": "",
   "defaultRessources": {
     "backgrounds": [],
-    "decksUrl": "https://raw.githubusercontent.com/Ruinemaru/TCG-Arena-Testing/refs/heads/main/decks/decklist.json?token=GHSAT0AAAAAAEEQZM7NI4N2GU26TJX6MEVA2TXBDWQ"
+    "decksUrl": "https://raw.githubusercontent.com/Ruinemaru/TCG-Arena-Testing/refs/heads/main/decks/decklist.json"
   },
   "customHelp": "",
   "cardRotation": 45,
   "cards": {
-    "dataUrl": "https://raw.githubusercontent.com/Ruinemaru/TCG-Arena-Testing/refs/heads/main/cards/cardlist.json?token=GHSAT0AAAAAAEEQZM7NCD7SUKRHTXCJOKL42TXBEDA",
+    "dataUrl": "https://raw.githubusercontent.com/Ruinemaru/TCG-Arena-Testing/refs/heads/main/cards/cardlist.json",
     "cardBack": ""
   },
   "deckBuilding": {
