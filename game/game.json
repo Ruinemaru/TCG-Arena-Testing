@@ -34,14 +34,6 @@
   "gameplay": {
     "Classic": {
 
-      "mulligan": {
-        "info": "",
-        "startingHandSize": 3,
-        "drawNewHand": true,
-        "putSelectionAtBottom": false,
-        "drawNewSelectedCards": false
-      },
-
       "newTurn": {
         "drawOnStart": false,
         "sharedTurn": false,
@@ -118,6 +110,8 @@
             "displayedTitle": "Personnage Deck",
             "enterTapped": false,
             "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
             "isGroupForbidden": false,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false,
