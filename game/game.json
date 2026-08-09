@@ -69,7 +69,8 @@
                     {
                       "section": "DL",
                       "style": {
-                        "marginTop": "-2vh"
+                        "marginTop": "0vh",
+                        "marginBottom": "0vh"
                       }
                     }
                   ],
@@ -78,7 +79,8 @@
                 {
                   "direction": "row",
                   "style": {
-                    "marginTop": "-2vh"
+                    "marginTop": "0vh",
+                    "marginBottom": "0vh"
                   },
                   "content": [
                     {
@@ -103,7 +105,8 @@
                 {
                   "direction": "row",
                   "style": {
-                    "marginTop": "-2vh"
+                    "marginTop": "0vh",
+                    "marginBottom": "0vh"
                   },
                   "content": [
                     {
@@ -128,7 +131,8 @@
                 {
                   "direction": "row",
                   "style": {
-                    "marginTop": "-2vh"
+                    "marginTop": "0vh",
+                    "marginBottom": "0vh"
                   },
                   "content": [
                     {
@@ -188,7 +192,8 @@
                     {
                       "section": "DP",
                       "style": {
-                        "marginTop": "-2vh"
+                        "marginTop": "0vh",
+                        "marginBottom": "0vh"
                       }
                     }
                   ],
@@ -197,7 +202,8 @@
                 {
                   "direction": "row",
                   "style": {
-                    "marginTop": "-2vh"
+                    "marginTop": "0vh",
+                    "marginBottom": "0vh"
                   },
                   "content": [
                     {
@@ -222,7 +228,8 @@
                 {
                   "direction": "row",
                   "style": {
-                    "marginTop": "-2vh"
+                    "marginTop": "0vh",
+                    "marginBottom": "0vh"
                   },
                   "content": [
                     {
@@ -247,7 +254,8 @@
                 {
                   "direction": "row",
                   "style": {
-                    "marginTop": "-2vh"
+                    "marginTop": "0vh",
+                    "marginBottom": "0vh"
                   },
                   "content": [
                     {
