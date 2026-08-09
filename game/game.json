@@ -47,6 +47,7 @@
       "hideFacedDownCards": false,
       "sections": {
         "customSections": [
+          "C",
           "DL",
           "DL1",
           "DL2",
@@ -80,18 +81,8 @@
           "content": [
             {
               "direction": "column",
+              "style": false,
               "content": [
-                {
-                  "direction": "row",
-                  "style": false,
-                  "content": [
-                    {
-                      "section": "DL",
-                      "style": false
-                    }
-                  ],
-                  "isSymetricalForOpponents": false
-                },
                 {
                   "direction": "row",
                   "style": false,
@@ -173,7 +164,15 @@
                   "style": false,
                   "content": [
                     {
+                      "section": "DL",
+                      "style": false
+                    },
+                    {
                       "section": "C",
+                      "style": false
+                    },
+                    {
+                      "section": "DP",
                       "style": false
                     }
                   ],
@@ -186,17 +185,6 @@
               "direction": "column",
               "style": false,
               "content": [
-                {
-                  "direction": "row",
-                  "style": false,
-                  "content": [
-                    {
-                      "section": "DP",
-                      "style": false
-                    }
-                  ],
-                  "isSymetricalForOpponents": false
-                },
                 {
                   "direction": "row",
                   "style": false,
@@ -273,11 +261,28 @@
         },
         "categoriesAlreadyOnBoard": [
           "Lieu->DL",
-          "Personnage->DP"
+          "Personnage->DP",
+          "Creation->C"
         ],
         "autoPlayFromHand": {},
         "autoPlayFromStack": {},
         "sectionsDict": {
+          "C": {
+            "title": "C",
+            "isHidden": "yes",
+            "height": "SMALL",
+            "alignment": "DECK",
+            "opponentAlignment": false,
+            "noAutoPayTo": "true",
+            "isHorizontalAllowed": false,
+            "displayedTitle": "C",
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false,
+            "noQuickActions": true
+          },
           "DL": {
             "title": "DL",
             "isHidden": "yes",
