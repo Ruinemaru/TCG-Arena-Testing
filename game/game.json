@@ -1,22 +1,16 @@
 {
- "name": "Partition - Full Board Test",
-
+  "name": "Partition - Full Board Test",
   "menuBackgroundImage": "",
-
   "defaultRessources": {
     "backgrounds": [],
     "decksUrl": "https://raw.githubusercontent.com/Ruinemaru/TCG-Arena-Testing/refs/heads/main/decks/decklist.json"
   },
-
   "customHelp": "",
-
   "cards": {
     "dataUrl": "https://raw.githubusercontent.com/Ruinemaru/TCG-Arena-Testing/refs/heads/main/cards/cardlist.json",
     "cardBack": ""
   },
-
   "cardRotation": 45,
-
   "deckBuilding": {
     "mainFilters": [],
     "formats": [
