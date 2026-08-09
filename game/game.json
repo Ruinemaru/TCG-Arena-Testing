@@ -1,351 +1,283 @@
 {
-  "name": "Partition - Full Board Test",
-
+  "name": "",
   "menuBackgroundImage": "",
-
   "defaultRessources": {
     "backgrounds": [],
-    "decksUrl": "https://raw.githubusercontent.com/Ruinemaru/TCG-Arena-Testing/refs/heads/main/decks/decklist.json"
+    "decksUrl": ""
   },
-
   "customHelp": "",
-
+  "cardRotation": 45,
   "cards": {
-    "dataUrl": "https://raw.githubusercontent.com/Ruinemaru/TCG-Arena-Testing/refs/heads/main/cards/cardlist.json",
+    "dataUrl": "",
     "cardBack": ""
   },
-
-  "cardRotation": 45,
-
   "deckBuilding": {
     "mainFilters": [],
-    "formats": [
-      {
-        "title": "Classic",
-        "gameplay": "Classic",
-        "customCategories": [
-          "Lieu",
-          "Personnage"
-        ]
-      }
-    ]
+    "formats": []
   },
-
   "gameplay": {
     "Classic": {
-
       "mulligan": {
         "info": "",
-        "startingHandSize": 3,
+        "startingHandSize": 7,
         "drawNewHand": true,
         "putSelectionAtBottom": false,
         "drawNewSelectedCards": false
       },
-
       "newTurn": {
         "drawOnStart": false,
         "sharedTurn": false,
         "firstPlayerTokenName": "",
         "drawPerTurn": 1
       },
-
       "defaultNotes": "",
-
       "tokens": [],
-
       "countersStartingValues": [
         0
       ],
-
       "hideFacedDownCards": false,
-
       "sections": {
-
         "customSections": [
-          "Lieu_Deck",
-          "Personnage_Deck",
-
-          "Decouverte_Lieu_1",
-          "Decouverte_Lieu_2",
-          "Decouverte_Lieu_3",
-
-          "Decouverte_Personnage_1",
-          "Decouverte_Personnage_2",
-          "Decouverte_Personnage_3",
-
-          "Fondation_1",
-          "Fondation_2",
-          "Fondation_3",
-          "Fondation_4",
-          "Fondation_5",
-          "Fondation_6",
-          "Fondation_7",
-          "Fondation_8",
-          "Fondation_9",
-
-          "Partition_1",
-          "Partition_2",
-          "Partition_3",
-          "Partition_4",
-          "Partition_5",
-          "Partition_6",
-          "Partition_7",
-          "Partition_8",
-          "Partition_9"
+          "Mana"
         ],
-
         "layout": {
-          "direction": "column",
-          "isSymetricalForOpponents": true,
+          "direction": "row",
+          "isSymetricalForOpponents": false,
           "content": [
             {
-              "direction": "row",
+              "direction": "column",
+              "style": {
+                "width": "65vh",
+                "justifyContent": "end"
+              },
               "content": [
                 {
-                  "section": "Decouverte_Lieu_1",
+                  "direction": "row",
                   "style": {
-                    "width": "10vh",
-                    "height": "14vh",
-                  }
+                    "width": "15vh"
+                  },
+                  "content": [
+                    {
+                      "section": "DL",
+                      "style": {
+                        "marginTop": "-2vh"
+                      }
+                    }
+                  ],
+                  "isSymetricalForOpponents": false
                 },
                 {
-          "section": "Decouverte_Lieu_2",
-          "style": {
-            "width": "10vh",
-            "height": "14vh"
-          }
+                  "direction": "row",
+                  "style": {
+                    "marginTop": "-2vh"
+                  },
+                  "content": [
+                    {
+                      "section": "F1",
+                      "style": false
+                    },
+                    {
+                      "section": "F2",
+                      "style": false
+                    },
+                    {
+                      "section": "F3",
+                      "style": false
+                    },
+                    {
+                      "section": "DL1",
+                      "style": false
+                    }
+                  ],
+                  "isSymetricalForOpponents": false
+                },
+                {
+                  "direction": "row",
+                  "style": {
+                    "marginTop": "-2vh"
+                  },
+                  "content": [
+                    {
+                      "section": "F4",
+                      "style": false
+                    },
+                    {
+                      "section": "F5",
+                      "style": false
+                    },
+                    {
+                      "section": "F6",
+                      "style": false
+                    },
+                    {
+                      "section": "DL2",
+                      "style": false
+                    }
+                  ],
+                  "isSymetricalForOpponents": false
+                },
+                {
+                  "direction": "row",
+                  "style": {
+                    "marginTop": "-2vh"
+                  },
+                  "content": [
+                    {
+                      "section": "F7",
+                      "style": false
+                    },
+                    {
+                      "section": "F8",
+                      "style": false
+                    },
+                    {
+                      "section": "F9",
+                      "style": false
+                    },
+                    {
+                      "section": "DL3",
+                      "style": false
+                    }
+                  ],
+                  "isSymetricalForOpponents": false
+                }
+              ],
+              "isSymetricalForOpponents": false
+            },
+            {
+              "direction": "column",
+              "style": {
+                "width": "15vh"
+              },
+              "content": [
+                {
+                  "direction": "row",
+                  "style": false,
+                  "content": [
+                    {
+                      "section": "C",
+                      "style": false
+                    }
+                  ],
+                  "isSymetricalForOpponents": false
+                }
+              ],
+              "isSymetricalForOpponents": false
+            },
+            {
+              "direction": "column",
+              "style": {
+                "width": "65vh"
+              },
+              "content": [
+                {
+                  "direction": "row",
+                  "style": {
+                    "width": "15vh"
+                  },
+                  "content": [
+                    {
+                      "section": "DP",
+                      "style": {
+                        "marginTop": "-2vh"
+                      }
+                    }
+                  ],
+                  "isSymetricalForOpponents": false
+                },
+                {
+                  "direction": "row",
+                  "style": {
+                    "marginTop": "-2vh"
+                  },
+                  "content": [
+                    {
+                      "section": "DP1",
+                      "style": false
+                    },
+                    {
+                      "section": "P1",
+                      "style": false
+                    },
+                    {
+                      "section": "P2",
+                      "style": false
+                    },
+                    {
+                      "section": "P3",
+                      "style": false
+                    }
+                  ],
+                  "isSymetricalForOpponents": false
+                },
+                {
+                  "direction": "row",
+                  "style": {
+                    "marginTop": "-2vh"
+                  },
+                  "content": [
+                    {
+                      "section": "DP2",
+                      "style": false
+                    },
+                    {
+                      "section": "P4",
+                      "style": false
+                    },
+                    {
+                      "section": "P5",
+                      "style": false
+                    },
+                    {
+                      "section": "P6",
+                      "style": false
+                    }
+                  ],
+                  "isSymetricalForOpponents": false
+                },
+                {
+                  "direction": "row",
+                  "style": {
+                    "marginTop": "-2vh"
+                  },
+                  "content": [
+                    {
+                      "section": "DP3",
+                      "style": false
+                    },
+                    {
+                      "section": "P7",
+                      "style": false
+                    },
+                    {
+                      "section": "P8",
+                      "style": false
+                    },
+                    {
+                      "section": "P9",
+                      "style": false
+                    }
+                  ],
+                  "isSymetricalForOpponents": false
+                }
+              ],
+              "isSymetricalForOpponents": false
+            }
+          ]
         },
-        {
-          "section": "Decouverte_Lieu_3",
-          "style": {
-            "width": "10vh",
-            "height": "14vh"
-          }
-        }
-      ]
-    },
-
-    {
-      "direction": "row",
-      "content": [
-        {
-          "section": "Decouverte_Personnage_1",
-          "style": {
-            "width": "10vh",
-            "height": "14vh"
-          }
-        },
-        {
-          "section": "Decouverte_Personnage_2",
-          "style": {
-            "width": "10vh",
-            "height": "14vh"
-          }
-        },
-        {
-          "section": "Decouverte_Personnage_3",
-          "style": {
-            "width": "10vh",
-            "height": "14vh"
-          }
-        }
-      ]
-    },
-
-    {
-      "direction": "row",
-      "content": [
-        {
-          "section": "Fondation_1",
-          "style": {
-            "width": "10vh",
-            "height": "14vh"
-          }
-        },
-        {
-          "section": "Fondation_2",
-          "style": {
-            "width": "10vh",
-            "height": "14vh"
-          }
-        },
-        {
-          "section": "Fondation_3",
-          "style": {
-            "width": "10vh",
-            "height": "14vh"
-          }
-        },
-        {
-          "section": "Fondation_4",
-          "style": {
-            "width": "10vh",
-            "height": "14vh"
-          }
-        },
-        {
-          "section": "Fondation_5",
-          "style": {
-            "width": "10vh",
-            "height": "14vh"
-          }
-        },
-        {
-          "section": "Fondation_6",
-          "style": {
-            "width": "10vh",
-            "height": "14vh"
-          }
-        },
-        {
-          "section": "Fondation_7",
-          "style": {
-            "width": "10vh",
-            "height": "14vh"
-          }
-        },
-        {
-          "section": "Fondation_8",
-          "style": {
-            "width": "10vh",
-            "height": "14vh"
-          }
-        },
-        {
-          "section": "Fondation_9",
-          "style": {
-            "width": "10vh",
-            "height": "14vh"
-          }
-        }
-      ]
-    },
-
-    {
-      "direction": "row",
-      "content": [
-        {
-          "section": "Partition_1",
-          "style": {
-            "width": "10vh",
-            "height": "14vh"
-          }
-        },
-        {
-          "section": "Partition_2",
-          "style": {
-            "width": "10vh",
-            "height": "14vh"
-          }
-        },
-        {
-          "section": "Partition_3",
-          "style": {
-            "width": "10vh",
-            "height": "14vh"
-          }
-        },
-        {
-          "section": "Partition_4",
-          "style": {
-            "width": "10vh",
-            "height": "14vh"
-          }
-        },
-        {
-          "section": "Partition_5",
-          "style": {
-            "width": "10vh",
-            "height": "14vh"
-          }
-        },
-        {
-          "section": "Partition_6",
-          "style": {
-            "width": "10vh",
-            "height": "14vh"
-          }
-        },
-        {
-          "section": "Partition_7",
-          "style": {
-            "width": "10vh",
-            "height": "14vh"
-          }
-        },
-        {
-          "section": "Partition_8",
-          "style": {
-            "width": "10vh",
-            "height": "14vh"
-          }
-        },
-        {
-          "section": "Partition_9",
-          "style": {
-            "width": "10vh",
-            "height": "14vh"
-          }
-        }
-      ]
-    }
-  ]
-},
-
-        "categoriesAlreadyOnBoard": [
-          "Lieu->Lieu_Deck",
-          "Personnage->Personnage_Deck"
-        ],
-
+        "categoriesAlreadyOnBoard": [],
         "autoPlayFromHand": {},
-
         "autoPlayFromStack": {},
-
         "sectionsDict": {
-
-          "Lieu_Deck": {
-            "title": "Lieu_Deck",
-            "isHidden": "yes",
-            "height": "SMALL",
-            "alignment": "DECK",
-            "opponentAlignment": false,
-            "noAutoPayTo": "true",
-            "isHorizontalAllowed": false,
-            "displayedTitle": "Lieu Deck",
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": false,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false,
-            "noQuickActions": true
-          },
-
-          "Personnage_Deck": {
-            "title": "Personnage_Deck",
-            "isHidden": "yes",
-            "height": "SMALL",
-            "alignment": "DECK",
-            "opponentAlignment": false,
-            "noAutoPayTo": "true",
-            "isHorizontalAllowed": false,
-            "displayedTitle": "Personnage Deck",
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": false,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false,
-            "noQuickActions": true
-          },
-
-          "Decouverte_Lieu_1": {
-            "title": "Decouverte_Lieu_1",
+          "DL": {
+            "title": "DL",
             "isHidden": "no",
             "height": "SMALL",
             "alignment": "START",
             "opponentAlignment": false,
             "noAutoPayTo": "true",
             "isHorizontalAllowed": false,
-            "displayedTitle": "Lieu",
+            "displayedTitle": "Deck Lieu",
             "enterTapped": false,
             "enterSpun": false,
             "isGroupForbidden": false,
@@ -353,16 +285,15 @@
             "showHiddenCardInHistory": false,
             "noQuickActions": false
           },
-
-          "Decouverte_Lieu_2": {
-            "title": "Decouverte_Lieu_2",
+          "DL1": {
+            "title": "DL1",
             "isHidden": "no",
             "height": "SMALL",
             "alignment": "START",
             "opponentAlignment": false,
             "noAutoPayTo": "true",
             "isHorizontalAllowed": false,
-            "displayedTitle": "Lieu",
+            "displayedTitle": "Découverte Lieu 1",
             "enterTapped": false,
             "enterSpun": false,
             "isGroupForbidden": false,
@@ -370,16 +301,15 @@
             "showHiddenCardInHistory": false,
             "noQuickActions": false
           },
-
-          "Decouverte_Lieu_3": {
-            "title": "Decouverte_Lieu_3",
+          "DL2": {
+            "title": "DL2",
             "isHidden": "no",
             "height": "SMALL",
             "alignment": "START",
             "opponentAlignment": false,
             "noAutoPayTo": "true",
             "isHorizontalAllowed": false,
-            "displayedTitle": "Lieu",
+            "displayedTitle": "Découverte Lieu 2",
             "enterTapped": false,
             "enterSpun": false,
             "isGroupForbidden": false,
@@ -387,16 +317,15 @@
             "showHiddenCardInHistory": false,
             "noQuickActions": false
           },
-
-          "Decouverte_Personnage_1": {
-            "title": "Decouverte_Personnage_1",
+          "DL3": {
+            "title": "DL3",
             "isHidden": "no",
             "height": "SMALL",
             "alignment": "START",
             "opponentAlignment": false,
             "noAutoPayTo": "true",
             "isHorizontalAllowed": false,
-            "displayedTitle": "Personnage",
+            "displayedTitle": "Découverte Lieu 3",
             "enterTapped": false,
             "enterSpun": false,
             "isGroupForbidden": false,
@@ -404,16 +333,15 @@
             "showHiddenCardInHistory": false,
             "noQuickActions": false
           },
-
-          "Decouverte_Personnage_2": {
-            "title": "Decouverte_Personnage_2",
+          "DC": {
+            "title": "DC",
             "isHidden": "no",
             "height": "SMALL",
             "alignment": "START",
             "opponentAlignment": false,
             "noAutoPayTo": "true",
             "isHorizontalAllowed": false,
-            "displayedTitle": "Personnage",
+            "displayedTitle": "Deck Création",
             "enterTapped": false,
             "enterSpun": false,
             "isGroupForbidden": false,
@@ -421,16 +349,15 @@
             "showHiddenCardInHistory": false,
             "noQuickActions": false
           },
-
-          "Decouverte_Personnage_3": {
-            "title": "Decouverte_Personnage_3",
+          "DP": {
+            "title": "DP",
             "isHidden": "no",
             "height": "SMALL",
             "alignment": "START",
             "opponentAlignment": false,
             "noAutoPayTo": "true",
             "isHorizontalAllowed": false,
-            "displayedTitle": "Personnage",
+            "displayedTitle": "Deck Personnage",
             "enterTapped": false,
             "enterSpun": false,
             "isGroupForbidden": false,
@@ -438,16 +365,15 @@
             "showHiddenCardInHistory": false,
             "noQuickActions": false
           },
-
-          "Fondation_1": {
-            "title": "Fondation_1",
+          "DP1": {
+            "title": "DP1",
             "isHidden": "no",
             "height": "SMALL",
             "alignment": "START",
             "opponentAlignment": false,
             "noAutoPayTo": "true",
             "isHorizontalAllowed": false,
-            "displayedTitle": "F1",
+            "displayedTitle": "Découverte Personnage 1",
             "enterTapped": false,
             "enterSpun": false,
             "isGroupForbidden": false,
@@ -455,17 +381,15 @@
             "showHiddenCardInHistory": false,
             "noQuickActions": false
           },
-
-          "Fondation_2": {
-            "title": "Fondation_2",
+          "DP2": {
+            "title": "DP2",
             "isHidden": "no",
             "height": "SMALL",
             "alignment": "START",
             "opponentAlignment": false,
             "noAutoPayTo": "true",
             "isHorizontalAllowed": false,
-            "noAutoPayTo": "true",
-            "displayedTitle": "F2",
+            "displayedTitle": "Découverte Personnage 2",
             "enterTapped": false,
             "enterSpun": false,
             "isGroupForbidden": false,
@@ -473,16 +397,15 @@
             "showHiddenCardInHistory": false,
             "noQuickActions": false
           },
-
-          "Fondation_3": {
-            "title": "Fondation_3",
+          "DP3": {
+            "title": "DP3",
             "isHidden": "no",
             "height": "SMALL",
             "alignment": "START",
             "opponentAlignment": false,
             "noAutoPayTo": "true",
             "isHorizontalAllowed": false,
-            "displayedTitle": "F3",
+            "displayedTitle": "Découverte Personnage 3",
             "enterTapped": false,
             "enterSpun": false,
             "isGroupForbidden": false,
@@ -490,16 +413,15 @@
             "showHiddenCardInHistory": false,
             "noQuickActions": false
           },
-
-          "Fondation_4": {
-            "title": "Fondation_4",
+          "Fondation": {
+            "title": "Fondation",
             "isHidden": "no",
             "height": "SMALL",
             "alignment": "START",
             "opponentAlignment": false,
             "noAutoPayTo": "true",
             "isHorizontalAllowed": false,
-            "displayedTitle": "F4",
+            "displayedTitle": "Fondation",
             "enterTapped": false,
             "enterSpun": false,
             "isGroupForbidden": false,
@@ -507,16 +429,15 @@
             "showHiddenCardInHistory": false,
             "noQuickActions": false
           },
-
-          "Fondation_5": {
-            "title": "Fondation_5",
+          "Partition": {
+            "title": "Partition",
             "isHidden": "no",
             "height": "SMALL",
             "alignment": "START",
             "opponentAlignment": false,
             "noAutoPayTo": "true",
             "isHorizontalAllowed": false,
-            "displayedTitle": "F5",
+            "displayedTitle": "Partition",
             "enterTapped": false,
             "enterSpun": false,
             "isGroupForbidden": false,
@@ -524,17 +445,15 @@
             "showHiddenCardInHistory": false,
             "noQuickActions": false
           },
-
-          "Fondation_6": {
-            "title": "Fondation_6",
+          "F1": {
+            "title": "F1",
             "isHidden": "no",
             "height": "SMALL",
             "alignment": "START",
             "opponentAlignment": false,
             "noAutoPayTo": "true",
             "isHorizontalAllowed": false,
-            "noAutoPayTo": "true",
-            "displayedTitle": "F6",
+            "displayedTitle": "Fondation 1",
             "enterTapped": false,
             "enterSpun": false,
             "isGroupForbidden": false,
@@ -542,16 +461,15 @@
             "showHiddenCardInHistory": false,
             "noQuickActions": false
           },
-
-          "Fondation_7": {
-            "title": "Fondation_7",
+          "F2": {
+            "title": "F2",
             "isHidden": "no",
             "height": "SMALL",
             "alignment": "START",
             "opponentAlignment": false,
             "noAutoPayTo": "true",
             "isHorizontalAllowed": false,
-            "displayedTitle": "F7",
+            "displayedTitle": "Fondation 2",
             "enterTapped": false,
             "enterSpun": false,
             "isGroupForbidden": false,
@@ -559,17 +477,15 @@
             "showHiddenCardInHistory": false,
             "noQuickActions": false
           },
-
-          "Fondation_8": {
-            "title": "Fondation_8",
+          "F3": {
+            "title": "F3",
             "isHidden": "no",
             "height": "SMALL",
             "alignment": "START",
             "opponentAlignment": false,
             "noAutoPayTo": "true",
             "isHorizontalAllowed": false,
-            "noAutoPayTo": "true",
-            "displayedTitle": "F8",
+            "displayedTitle": "Fondation 3",
             "enterTapped": false,
             "enterSpun": false,
             "isGroupForbidden": false,
@@ -577,17 +493,15 @@
             "showHiddenCardInHistory": false,
             "noQuickActions": false
           },
-
-          "Fondation_9": {
-            "title": "Fondation_9",
+          "F4": {
+            "title": "F4",
             "isHidden": "no",
             "height": "SMALL",
             "alignment": "START",
             "opponentAlignment": false,
             "noAutoPayTo": "true",
             "isHorizontalAllowed": false,
-            "noAutoPayTo": "true",
-            "displayedTitle": "F9",
+            "displayedTitle": "Fondation 4",
             "enterTapped": false,
             "enterSpun": false,
             "isGroupForbidden": false,
@@ -595,16 +509,15 @@
             "showHiddenCardInHistory": false,
             "noQuickActions": false
           },
-
-          "Partition_1": {
-            "title": "Partition_1",
+          "F5": {
+            "title": "F5",
             "isHidden": "no",
             "height": "SMALL",
             "alignment": "START",
             "opponentAlignment": false,
             "noAutoPayTo": "true",
             "isHorizontalAllowed": false,
-            "displayedTitle": "P1",
+            "displayedTitle": "Fondation 5",
             "enterTapped": false,
             "enterSpun": false,
             "isGroupForbidden": false,
@@ -612,16 +525,15 @@
             "showHiddenCardInHistory": false,
             "noQuickActions": false
           },
-
-          "Partition_2": {
-            "title": "Partition_2",
+          "F6": {
+            "title": "F6",
             "isHidden": "no",
             "height": "SMALL",
             "alignment": "START",
             "opponentAlignment": false,
             "noAutoPayTo": "true",
             "isHorizontalAllowed": false,
-            "displayedTitle": "P2",
+            "displayedTitle": "Fondation 6",
             "enterTapped": false,
             "enterSpun": false,
             "isGroupForbidden": false,
@@ -629,16 +541,15 @@
             "showHiddenCardInHistory": false,
             "noQuickActions": false
           },
-
-          "Partition_3": {
-            "title": "Partition_3",
+          "F7": {
+            "title": "F7",
             "isHidden": "no",
             "height": "SMALL",
             "alignment": "START",
             "opponentAlignment": false,
             "noAutoPayTo": "true",
             "isHorizontalAllowed": false,
-            "displayedTitle": "P3",
+            "displayedTitle": "Fondation 7",
             "enterTapped": false,
             "enterSpun": false,
             "isGroupForbidden": false,
@@ -646,16 +557,15 @@
             "showHiddenCardInHistory": false,
             "noQuickActions": false
           },
-
-          "Partition_4": {
-            "title": "Partition_4",
+          "F8": {
+            "title": "F8",
             "isHidden": "no",
             "height": "SMALL",
             "alignment": "START",
             "opponentAlignment": false,
             "noAutoPayTo": "true",
             "isHorizontalAllowed": false,
-            "displayedTitle": "P4",
+            "displayedTitle": "Fondation 8",
             "enterTapped": false,
             "enterSpun": false,
             "isGroupForbidden": false,
@@ -663,16 +573,15 @@
             "showHiddenCardInHistory": false,
             "noQuickActions": false
           },
-
-          "Partition_5": {
-            "title": "Partition_5",
+          "F9": {
+            "title": "F9",
             "isHidden": "no",
             "height": "SMALL",
             "alignment": "START",
             "opponentAlignment": false,
             "noAutoPayTo": "true",
             "isHorizontalAllowed": false,
-            "displayedTitle": "P5",
+            "displayedTitle": "Fondation 9",
             "enterTapped": false,
             "enterSpun": false,
             "isGroupForbidden": false,
@@ -680,16 +589,15 @@
             "showHiddenCardInHistory": false,
             "noQuickActions": false
           },
-
-          "Partition_6": {
-            "title": "Partition_6",
+          "P1": {
+            "title": "P1",
             "isHidden": "no",
             "height": "SMALL",
             "alignment": "START",
             "opponentAlignment": false,
             "noAutoPayTo": "true",
             "isHorizontalAllowed": false,
-            "displayedTitle": "P6",
+            "displayedTitle": "Partition 1",
             "enterTapped": false,
             "enterSpun": false,
             "isGroupForbidden": false,
@@ -697,16 +605,15 @@
             "showHiddenCardInHistory": false,
             "noQuickActions": false
           },
-
-          "Partition_7": {
-            "title": "Partition_7",
+          "P2": {
+            "title": "P2",
             "isHidden": "no",
             "height": "SMALL",
             "alignment": "START",
             "opponentAlignment": false,
             "noAutoPayTo": "true",
             "isHorizontalAllowed": false,
-            "displayedTitle": "P7",
+            "displayedTitle": "Partition 2",
             "enterTapped": false,
             "enterSpun": false,
             "isGroupForbidden": false,
@@ -714,16 +621,15 @@
             "showHiddenCardInHistory": false,
             "noQuickActions": false
           },
-
-          "Partition_8": {
-            "title": "Partition_8",
+          "P3": {
+            "title": "P3",
             "isHidden": "no",
             "height": "SMALL",
             "alignment": "START",
             "opponentAlignment": false,
             "noAutoPayTo": "true",
             "isHorizontalAllowed": false,
-            "displayedTitle": "P8",
+            "displayedTitle": "Partition 3",
             "enterTapped": false,
             "enterSpun": false,
             "isGroupForbidden": false,
@@ -731,16 +637,95 @@
             "showHiddenCardInHistory": false,
             "noQuickActions": false
           },
-
-          "Partition_9": {
-            "title": "Partition_9",
+          "P4": {
+            "title": "P4",
             "isHidden": "no",
             "height": "SMALL",
             "alignment": "START",
             "opponentAlignment": false,
             "noAutoPayTo": "true",
             "isHorizontalAllowed": false,
-            "displayedTitle": "P9",
+            "displayedTitle": "Partition 4",
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false,
+            "noQuickActions": false
+          },
+          "P5": {
+            "title": "P5",
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "START",
+            "opponentAlignment": false,
+            "noAutoPayTo": "true",
+            "isHorizontalAllowed": false,
+            "displayedTitle": "Partition 5",
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false,
+            "noQuickActions": false
+          },
+          "P6": {
+            "title": "P6",
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "START",
+            "opponentAlignment": false,
+            "noAutoPayTo": "true",
+            "isHorizontalAllowed": false,
+            "displayedTitle": "Partition 6",
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false,
+            "noQuickActions": false
+          },
+          "P7": {
+            "title": "P7",
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "START",
+            "opponentAlignment": false,
+            "noAutoPayTo": "true",
+            "isHorizontalAllowed": false,
+            "displayedTitle": "Partition 7",
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false,
+            "noQuickActions": false
+          },
+          "P8": {
+            "title": "P8",
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "START",
+            "opponentAlignment": false,
+            "noAutoPayTo": "true",
+            "isHorizontalAllowed": false,
+            "displayedTitle": "Partition 8",
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false,
+            "noQuickActions": false
+          },
+          "P9": {
+            "title": "P9",
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "START",
+            "opponentAlignment": false,
+            "noAutoPayTo": "true",
+            "isHorizontalAllowed": false,
+            "displayedTitle": "Partition 9",
             "enterTapped": false,
             "enterSpun": false,
             "isGroupForbidden": false,
