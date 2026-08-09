@@ -1,20 +1,35 @@
 {
-  "name": "",
+ "name": "Partition - Full Board Test",
+
   "menuBackgroundImage": "",
+
   "defaultRessources": {
     "backgrounds": [],
-    "decksUrl": ""
+    "decksUrl": "https://raw.githubusercontent.com/Ruinemaru/TCG-Arena-Testing/refs/heads/main/decks/decklist.json"
   },
+
   "customHelp": "",
-  "cardRotation": 45,
+
   "cards": {
-    "dataUrl": "",
+    "dataUrl": "https://raw.githubusercontent.com/Ruinemaru/TCG-Arena-Testing/refs/heads/main/cards/cardlist.json",
     "cardBack": ""
   },
+
+  "cardRotation": 45,
+
   "deckBuilding": {
     "mainFilters": [],
-    "formats": []
-  },
+    "formats": [
+      {
+        "title": "Classic",
+        "gameplay": "Classic",
+        "customCategories": [
+          "Lieu",
+          "Personnage"
+        ]
+      }
+    ]
+  }
   "gameplay": {
     "Classic": {
       "mulligan": {
