@@ -36,7 +36,7 @@
         "name": "INSPIRATION_0002",
         "type": "Inspiration",
         "cost": 0,
-        "image": "https://cdn.alteredcore.org/cards/en/EOLE/ALT_EOLE_B_OR_119_R2.webp",
+        "image": "https://raw.githubusercontent.com/Ruinemaru/TCG-Arena-Testing/main/image/inspiration/inspiration_0002.png",
         "isHorizontal": false
       },
       "back": {
@@ -62,7 +62,7 @@
         "name": "INSPIRATION_0003",
         "type": "Inspiration",
         "cost": 0,
-        "image": "https://cdn.alteredcore.org/cards/en/EOLE/ALT_EOLE_B_OR_119_R2.webp",
+        "image": "https://raw.githubusercontent.com/Ruinemaru/TCG-Arena-Testing/main/image/inspiration/inspiration_0003.png",
         "isHorizontal": false
       },
       "back": {
