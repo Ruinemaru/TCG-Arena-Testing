@@ -30,7 +30,7 @@
       "Classic" : {
         "checkCardLegality": true, 
         "general": {
-          "min" : 5,
+          "min" : 4,
           "max" : 6,
           "maxPerCard": 3
         }
