@@ -25,7 +25,162 @@
     "type": "Inspiration",
     "cost": 0
   },
-
+    "INSPIRATION_0002": {
+    "id": "INSPIRATION_0002",
+    "isToken": false,
+    "_legal": {
+      "Classic": true
+    },
+    "face": {
+      "front": {
+        "name": "INSPIRATION_0002",
+        "type": "Inspiration",
+        "cost": 0,
+        "image": "https://cdn.alteredcore.org/cards/en/EOLE/ALT_EOLE_B_OR_119_R2.webp",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "",
+        "type": "",
+        "cost": 0,
+        "image": "",
+        "isHorizontal": false
+      }
+    },
+    "name": "INSPIRATION_0002",
+    "type": "Inspiration",
+    "cost": 0
+  },
+    "INSPIRATION_0003": {
+    "id": "INSPIRATION_0003",
+    "isToken": false,
+    "_legal": {
+      "Classic": true
+    },
+    "face": {
+      "front": {
+        "name": "INSPIRATION_0003",
+        "type": "Inspiration",
+        "cost": 0,
+        "image": "https://cdn.alteredcore.org/cards/en/EOLE/ALT_EOLE_B_OR_119_R2.webp",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "",
+        "type": "",
+        "cost": 0,
+        "image": "",
+        "isHorizontal": false
+      }
+    },
+    "name": "INSPIRATION_0003",
+    "type": "Inspiration",
+    "cost": 0
+  },
+    "INSPIRATION_0004": {
+    "id": "INSPIRATION_0004",
+    "isToken": false,
+    "_legal": {
+      "Classic": true
+    },
+    "face": {
+      "front": {
+        "name": "INSPIRATION_0004",
+        "type": "Inspiration",
+        "cost": 0,
+        "image": "https://cdn.alteredcore.org/cards/en/EOLE/ALT_EOLE_B_OR_119_R2.webp",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "",
+        "type": "",
+        "cost": 0,
+        "image": "",
+        "isHorizontal": false
+      }
+    },
+    "name": "INSPIRATION_0004",
+    "type": "Inspiration",
+    "cost": 0
+  },
+      "INSPIRATION_0005": {
+    "id": "INSPIRATION_0005",
+    "isToken": false,
+    "_legal": {
+      "Classic": true
+    },
+    "face": {
+      "front": {
+        "name": "INSPIRATION_0005",
+        "type": "Inspiration",
+        "cost": 0,
+        "image": "https://cdn.alteredcore.org/cards/en/EOLE/ALT_EOLE_B_OR_119_R2.webp",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "",
+        "type": "",
+        "cost": 0,
+        "image": "",
+        "isHorizontal": false
+      }
+    },
+    "name": "INSPIRATION_0005",
+    "type": "Inspiration",
+    "cost": 0
+  },
+      "INSPIRATION_0006": {
+    "id": "INSPIRATION_0006",
+    "isToken": false,
+    "_legal": {
+      "Classic": true
+    },
+    "face": {
+      "front": {
+        "name": "INSPIRATION_0006",
+        "type": "Inspiration",
+        "cost": 0,
+        "image": "https://cdn.alteredcore.org/cards/en/EOLE/ALT_EOLE_B_OR_119_R2.webp",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "",
+        "type": "",
+        "cost": 0,
+        "image": "",
+        "isHorizontal": false
+      }
+    },
+    "name": "INSPIRATION_0006",
+    "type": "Inspiration",
+    "cost": 0
+  },
+      "INSPIRATION_0007": {
+    "id": "INSPIRATION_0007",
+    "isToken": false,
+    "_legal": {
+      "Classic": true
+    },
+    "face": {
+      "front": {
+        "name": "INSPIRATION_0007",
+        "type": "Inspiration",
+        "cost": 0,
+        "image": "https://cdn.alteredcore.org/cards/en/EOLE/ALT_EOLE_B_OR_119_R2.webp",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "",
+        "type": "",
+        "cost": 0,
+        "image": "",
+        "isHorizontal": false
+      }
+    },
+    "name": "INSPIRATION_0007",
+    "type": "Inspiration",
+    "cost": 0
+  },
   "LIEU_0001": {
     "id": "LIEU_0001",
     "isToken": false,
