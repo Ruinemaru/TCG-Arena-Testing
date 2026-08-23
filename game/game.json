@@ -28,11 +28,11 @@
     ],
     "deckRulesets": {
       "Classic" : {
-        "checkCardLegality": true,
+        "checkCardLegality": true, 
         "general": {
           "min" : 5,
           "max" : 6,
-          "maxPerCard": 2
+          "maxPerCard": 3
         }
       }
     }
