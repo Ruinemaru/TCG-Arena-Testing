@@ -17,16 +17,18 @@
       {
         "title": "Classic",
         "gameplay": "Classic",
+        "legalityCode": "Classic",
         "customCategories": [
           "Lieu",
           "Personnage",
           "Creation"
         ],
-        "deckRuleset": "PartitionTest"
+        "deckRuleset": "Classic"
       }
     ],
     "deckRulesets": {
-      "PartitionTest" : {
+      "Classic" : {
+        "checkCardLegality": true,
         "general": {
           "min" : 5,
           "max" : 6,
