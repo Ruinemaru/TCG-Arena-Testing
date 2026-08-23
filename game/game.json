@@ -28,6 +28,7 @@
     ],
     "deckRulesets": {
       "Classic" : {
+        "checkCardLegality": true,
         "general": {
           "min" : 5,
           "max" : 6,
