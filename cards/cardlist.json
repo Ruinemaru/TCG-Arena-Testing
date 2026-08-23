@@ -3,7 +3,7 @@
     "id": "INSPIRATION_0001",
     "isToken": false,
     "_legal": {
-      "Classic": 1
+      "Classic": true
     },
     "face": {
       "front": {
