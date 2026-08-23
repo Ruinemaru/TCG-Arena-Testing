@@ -28,12 +28,34 @@
     ],
     "deckRulesets": {
       "Classic" : {
-        "checkCardLegality": true, 
+        "checkCardLegality": true,
         "general": {
-          "min" : 4,
-          "max" : 6,
+          "min" : 20,
+          "max" : 60,
           "maxPerCard": 3
-        }
+        },
+        "categories": [
+          {
+            "category": "Inspiration",
+            "min": 20,
+            "max": 30
+          },
+          {
+            "category": "Lieu",
+            "min": 0,
+            "max": 10
+          },
+          {
+            "category": "Personnage",
+            "min": 0,
+            "max": 10
+          },
+          {
+            "category": "Creation",
+            "min": 0,
+            "max": 10
+          }
+        ]
       }
     }
   },
