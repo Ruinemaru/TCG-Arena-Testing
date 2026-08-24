@@ -88,7 +88,7 @@
         "name": "INSPIRATION_0004",
         "type": "Inspiration",
         "cost": 0,
-        "image": "https://cdn.alteredcore.org/cards/en/EOLE/ALT_EOLE_B_OR_119_R2.webp",
+        "image": "https://raw.githubusercontent.com/Ruinemaru/TCG-Arena-Testing/main/image/inspiration/inspiration_0004.png",
         "isHorizontal": false
       },
       "back": {
@@ -114,7 +114,7 @@
         "name": "INSPIRATION_0005",
         "type": "Inspiration",
         "cost": 0,
-        "image": "https://cdn.alteredcore.org/cards/en/EOLE/ALT_EOLE_B_OR_119_R2.webp",
+        "image": "https://raw.githubusercontent.com/Ruinemaru/TCG-Arena-Testing/main/image/inspiration/inspiration_0005.png",
         "isHorizontal": false
       },
       "back": {
@@ -140,7 +140,7 @@
         "name": "INSPIRATION_0006",
         "type": "Inspiration",
         "cost": 0,
-        "image": "https://cdn.alteredcore.org/cards/en/EOLE/ALT_EOLE_B_OR_119_R2.webp",
+        "image": "https://raw.githubusercontent.com/Ruinemaru/TCG-Arena-Testing/main/image/inspiration/inspiration_0006.png",
         "isHorizontal": false
       },
       "back": {
