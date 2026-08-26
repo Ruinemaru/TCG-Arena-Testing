@@ -233,6 +233,32 @@
     "type": "Inspiration",
     "cost": 0
   },
+          "INSPIRATION_0010": {
+    "id": "INSPIRATION_0010",
+    "isToken": false,
+    "_legal": {
+      "Classic": true
+    },
+    "face": {
+      "front": {
+        "name": "INSPIRATION_0010",
+        "type": "Inspiration",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/Ruinemaru/TCG-Arena-Testing/main/image/inspiration/inspiration_0010.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "",
+        "type": "",
+        "cost": 0,
+        "image": "",
+        "isHorizontal": false
+      }
+    },
+    "name": "INSPIRATION_0010",
+    "type": "Inspiration",
+    "cost": 0
+  },
   "LIEU_0001": {
     "id": "LIEU_0001",
     "isToken": false,
@@ -286,7 +312,6 @@
     "type": "Personnage",
     "cost": 0
   },
-
   "CREATION_0001": {
     "id": "CREATION_0001",
     "isToken": false,
@@ -298,7 +323,7 @@
         "name": "CREATION_0001",
         "type": "Creation",
         "cost": 0,
-        "image": "https://cdn.alteredcore.org/cards/en/EOLE/ALT_EOLE_B_YZ_109_R2.webp",
+        "image": "https://raw.githubusercontent.com/Ruinemaru/TCG-Arena-Testing/main/image/creation/creation_0001.png",
         "isHorizontal": false
       },
       "back": {
@@ -310,6 +335,32 @@
       }
     },
     "name": "CREATION_0001",
+    "type": "Creation",
+    "cost": 0
+  },
+  "CREATION_0002": {
+    "id": "CREATION_0002",
+    "isToken": false,
+    "_legal": {
+      "Classic": true
+    },
+    "face": {
+      "front": {
+        "name": "CREATION_0002",
+        "type": "Creation",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/Ruinemaru/TCG-Arena-Testing/main/image/creation/creation_0002.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "",
+        "type": "",
+        "cost": 0,
+        "image": "",
+        "isHorizontal": false
+      }
+    },
+    "name": "CREATION_0002",
     "type": "Creation",
     "cost": 0
   }
