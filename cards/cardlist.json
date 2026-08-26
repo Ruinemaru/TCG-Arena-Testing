@@ -323,7 +323,7 @@
         "name": "CREATION_0001",
         "type": "Creation",
         "cost": 0,
-        "image": "https://cdn.alteredcore.org/cards/en/EOLE/ALT_EOLE_B_YZ_111_R2.webp",
+        "image": "https://raw.githubusercontent.com/Ruinemaru/TCG-Arena-Testing/main/image/creation/creation_0001.png",
         "isHorizontal": false
       },
       "back": {
@@ -349,7 +349,7 @@
         "name": "CREATION_0002",
         "type": "Creation",
         "cost": 0,
-        "image": "https://cdn.alteredcore.org/cards/en/EOLE/ALT_EOLE_B_YZ_111_R2.webp",
+        "image": "https://raw.githubusercontent.com/Ruinemaru/TCG-Arena-Testing/main/image/creation/creation_0002.png",
         "isHorizontal": false
       },
       "back": {
