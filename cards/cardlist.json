@@ -270,7 +270,7 @@
         "name": "LIEU_0001",
         "type": "Lieu",
         "cost": 0,
-        "image": "https://cdn.alteredcore.org/cards/en/EOLE/ALT_EOLE_B_OR_118_R2.webp",
+        "image": "https://raw.githubusercontent.com/Ruinemaru/TCG-Arena-Testing/main/image/lieu/lieu_0001.png",
         "isHorizontal": false
       },
       "back": {
@@ -285,7 +285,58 @@
     "type": "Lieu",
     "cost": 0
   },
-
+  "LIEU_0002": {
+    "id": "LIEU_0002",
+    "isToken": false,
+    "_legal": {
+      "Classic": true
+    },
+    "face": {
+      "front": {
+        "name": "LIEU_0002",
+        "type": "Lieu",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/Ruinemaru/TCG-Arena-Testing/main/image/lieu/lieu_0002.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "",
+        "type": "",
+        "cost": 0,
+        "image": "",
+        "isHorizontal": false
+      }
+    },
+    "name": "LIEU_0002",
+    "type": "Lieu",
+    "cost": 0
+  },
+  "LIEU_0003": {
+    "id": "LIEU_0003",
+    "isToken": false,
+    "_legal": {
+      "Classic": true
+    },
+    "face": {
+      "front": {
+        "name": "LIEU_0003",
+        "type": "Lieu",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/Ruinemaru/TCG-Arena-Testing/main/image/lieu/lieu_0003.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "",
+        "type": "",
+        "cost": 0,
+        "image": "",
+        "isHorizontal": false
+      }
+    },
+    "name": "LIEU_0003",
+    "type": "Lieu",
+    "cost": 0
+  },
   "PERSONNAGE_0001": {
     "id": "PERSONNAGE_0001",
     "isToken": false,
@@ -297,7 +348,7 @@
         "name": "PERSONNAGE_0001",
         "type": "Personnage",
         "cost": 0,
-        "image": "https://cdn.alteredcore.org/cards/en/EOLE/ALT_EOLE_B_YZ_111_R2.webp",
+        "image": "https://raw.githubusercontent.com/Ruinemaru/TCG-Arena-Testing/main/image/personnage/personnage_0001.png",
         "isHorizontal": false
       },
       "back": {
@@ -309,6 +360,58 @@
       }
     },
     "name": "PERSONNAGE_0001",
+    "type": "Personnage",
+    "cost": 0
+  },
+    "PERSONNAGE_0002": {
+    "id": "PERSONNAGE_0002",
+    "isToken": false,
+    "_legal": {
+      "Classic": true
+    },
+    "face": {
+      "front": {
+        "name": "PERSONNAGE_0002",
+        "type": "Personnage",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/Ruinemaru/TCG-Arena-Testing/main/image/personnage/personnage_0002.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "",
+        "type": "",
+        "cost": 0,
+        "image": "",
+        "isHorizontal": false
+      }
+    },
+    "name": "PERSONNAGE_0002",
+    "type": "Personnage",
+    "cost": 0
+  },
+    "PERSONNAGE_0003": {
+    "id": "PERSONNAGE_0003",
+    "isToken": false,
+    "_legal": {
+      "Classic": true
+    },
+    "face": {
+      "front": {
+        "name": "PERSONNAGE_0003",
+        "type": "Personnage",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/Ruinemaru/TCG-Arena-Testing/main/image/personnage/personnage_0003.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "",
+        "type": "",
+        "cost": 0,
+        "image": "",
+        "isHorizontal": false
+      }
+    },
+    "name": "PERSONNAGE_0003",
     "type": "Personnage",
     "cost": 0
   },
@@ -361,6 +464,58 @@
       }
     },
     "name": "CREATION_0002",
+    "type": "Creation",
+    "cost": 0
+  },
+    "CREATION_0003": {
+    "id": "CREATION_0003",
+    "isToken": false,
+    "_legal": {
+      "Classic": true
+    },
+    "face": {
+      "front": {
+        "name": "CREATION_0003",
+        "type": "Creation",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/Ruinemaru/TCG-Arena-Testing/main/image/creation/creation_0003.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "",
+        "type": "",
+        "cost": 0,
+        "image": "",
+        "isHorizontal": false
+      }
+    },
+    "name": "CREATION_0003",
+    "type": "Creation",
+    "cost": 0
+  },
+  "CREATION_0004": {
+    "id": "CREATION_0004",
+    "isToken": false,
+    "_legal": {
+      "Classic": true
+    },
+    "face": {
+      "front": {
+        "name": "CREATION_0004",
+        "type": "Creation",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/Ruinemaru/TCG-Arena-Testing/main/image/creation/creation_0004.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "",
+        "type": "",
+        "cost": 0,
+        "image": "",
+        "isHorizontal": false
+      }
+    },
+    "name": "CREATION_0004",
     "type": "Creation",
     "cost": 0
   }
